@@ -23,6 +23,15 @@ namespace Week_3
         public MainWindow()
         {
             InitializeComponent();
+            Goose goose = new Goose();
+            goose.Name = "GooseName";
+            goose.Age = 9001;
+            goose.AttackDamage = 999999;
+
+            goose.Honk();
+            goose.Aquack();
+            
         }
+
     }
 }
