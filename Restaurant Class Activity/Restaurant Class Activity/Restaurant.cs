@@ -11,9 +11,9 @@ namespace Restaurant_Class_Activity
     {
         public string NameOfFood;
         public double PriceOfFood;
-        public int quantity;
+        public int Quantity;
 
-        public void Menu()
+        public void ShowMenu()
         {
             MessageBox.Show("You have bought " + NameOfFood + " It costs " + PriceOfFood + " you have ordered a quantity of " +  quantity);
         } 
